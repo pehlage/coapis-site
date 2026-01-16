@@ -6,7 +6,7 @@ export const products = [
   { id: 4, name: 'Mel Silvestre', price: 29.50, unit: 'Bisnaga 500g invertida', category: 'Silvestre', image: '/images/produtos/Bisnaga Invertida 500g.png' },
   { id: 5, name: 'Mel Silvestre', price: 17.50, unit: 'Bisnaga 300g PET', category: 'Silvestre', image: '/images/produtos/Conjunto-Bisnaga-Pet.png' },
   { id: 6, name: 'Mel Silvestre', price: 7.00, unit: 'Solapa 60g (15 sachês de 4g)', category: 'Silvestre', image: '/images/produtos/Solapa 60g.png' },
-  { id: 7, name: 'Mel Silvestre', price: 42.00, unit: 'Stick 500g (50 unidades de 10g)', category: 'Silvestre', image: '/images/produtos/Mel Sachê Stick 50un (1).png' },
+  { id: 7, name: 'Mel Silvestre', price: 42.00, unit: 'Stick 500g (50 unidades de 10g)', category: 'Silvestre', image: '/images/produtos/Mel Sachê Stick 50un  (1).png' },
 
   // ===== EUCALIPTO =====
   { id: 10, name: 'Mel de Eucalipto', price: 42.80, unit: 'Vidro 800g', category: 'Eucalipto', image: '/images/produtos/Conjunto - Vidro.png' },
