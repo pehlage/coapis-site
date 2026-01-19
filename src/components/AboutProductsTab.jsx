@@ -85,7 +85,7 @@ const AboutProductsTab = () => {
                <h4 className="text-xl font-bold">Nota sobre Cristalização</h4>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Todo mel puro cristaliza (açucara) com o tempo, especialmente em temperaturas mais baixas. Isso é o maior atestado de pureza que o produto pode ter. Méis adulterados com glucose de milho ou superaquecidos raramente cristalizam.
+              Todo mel puro cristaliza com o tempo, especialmente em temperaturas mais baixas. Isso é o maior atestado de pureza que o produto pode ter. Méis adulterados com glucose de milho ou superaquecidos raramente cristalizam.
             </p>
             <p className="text-sm text-amber-700 mt-4 font-medium italic">
               Dica: Para descristalizar, basta aquecer em banho-maria controlado abaixo de 45°C.
