@@ -1,7 +1,7 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from 'lucide-react';
 
-const Footer = () => {
+const Footer = ({ setActiveTab }) => {
   return (
     <footer className="bg-amber-950 text-amber-100 pt-20 pb-10 mt-auto">
       <div className="container mx-auto px-4 max-w-7xl">
@@ -39,15 +39,44 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="md:pl-12">
-            <h4 className="text-xl font-bold text-white mb-8 border-b border-amber-800 pb-2 inline-block">Links Rápidos</h4>
-            <ul className="space-y-4 text-lg">
-              <li><a href="#" className="hover:text-amber-400 transition-colors flex items-center gap-2"><span className="text-amber-600">›</span> Início</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors flex items-center gap-2"><span className="text-amber-600">›</span> Nossos Produtos</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors flex items-center gap-2"><span className="text-amber-600">›</span> Sobre a Cooperativa</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors flex items-center gap-2"><span className="text-amber-600">›</span> Fale Conosco</a></li>
-            </ul>
-          </div>
+          <ul className="space-y-4 text-lg">
+            <li>
+              <button
+                onClick={() => setActiveTab('home')}
+                className="hover:text-amber-400 transition-colors flex items-center gap-2"
+              >
+                <span className="text-amber-600">›</span> Início
+              </button>
+            </li>
+
+            <li>
+              <button
+                onClick={() => setActiveTab('products')}
+                className="hover:text-amber-400 transition-colors flex items-center gap-2"
+              >
+                <span className="text-amber-600">›</span> Nossos Produtos
+              </button>
+            </li>
+
+            <li>
+              <button
+                onClick={() => setActiveTab('about')}
+                className="hover:text-amber-400 transition-colors flex items-center gap-2"
+              >
+                <span className="text-amber-600">›</span> Sobre a Cooperativa
+              </button>
+            </li>
+
+            <li>
+              <button
+                onClick={() => setActiveTab('cooperator')}
+                className="hover:text-amber-400 transition-colors flex items-center gap-2"
+              >
+                <span className="text-amber-600">›</span> Fale Conosco
+              </button>
+            </li>
+          </ul>
+
 
           {/* Contact Info */}
           <div>

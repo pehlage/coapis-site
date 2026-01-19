@@ -85,7 +85,7 @@ function App() {
           )}
         </main>
 
-        <Footer />
+        <Footer setActiveTab={setActiveTab} />
 
         <Cart 
           isOpen={isCartOpen}
