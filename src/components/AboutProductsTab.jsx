@@ -14,7 +14,7 @@ const AboutProductsTab = () => {
       >
         <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mb-6">Nossos Produtos: Pureza e Ciência</h2>
         <p className="text-xl text-amber-800 max-w-3xl mx-auto leading-relaxed">
-          Entenda o que faz do nosso mel um alimento único e descubra os benefícios do propólis e da geleia real para a sua saúde.
+          Entenda o que faz do nosso mel um alimento único e descubra os benefícios do propólis, pólen e da geleia real para a sua saúde.
         </p>
       </motion.div>
 
