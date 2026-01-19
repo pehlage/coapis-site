@@ -15,7 +15,10 @@ const Footer = ({ setActiveTab }) => {
               <h3 className="text-3xl font-bold text-white tracking-tight">Coapis</h3>
             </div>
             <p className="text-amber-200/80 leading-relaxed text-lg">
-              Somos uma cooperativa dedicada à apicultura sustentável, produzindo o mel mais puro e fino. Nossa missão é adoçar sua vida enquanto protegemos os polinizadores do nosso planeta.
+              Somos uma cooperativa dedicada à apicultura sustentável, produzindo o mel mais puro e fino,
+              <strong className="text-amber-300"> certificado com selo SISP 1043</strong>.
+              Nossa missão é adoçar sua vida enquanto protegemos os polinizadores
+              e cuidamos do futuro do nosso planeta.
             </p>
             <div className="flex gap-4 pt-2">
               <a
