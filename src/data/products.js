@@ -22,13 +22,11 @@ export const products = [
   { id: 20, name: 'Mel de Laranjeira', price: 36.50, unit: 'Bisnaga 500g invertida', category: 'Laranjeira', image: '/images/produtos/Bisnaga Invertida 500g.png' },
   { id: 21, name: 'Mel de Laranjeira', price: 22.00, unit: 'Bisnaga 300g PET', category: 'Laranjeira', image: '/images/produtos/Conjunto-Bisnaga-Pet.png' },
 
-  // ===== PÓLEN =====
-  { id: 26, name: 'Pólen', price: 57.20, unit: '250g', category: 'Pólen', image: '/images/produtos/Polen Pote Rosca 250g.png' },
+  // ===== PÓLEN / PRÓPOLIS =====
   { id: 27, name: 'Pólen', price: 18.70, unit: '50g', category: 'Pólen', image: '/images/produtos/Tubo Polen 50g.png' },
-
-  // ===== PRÓPOLIS =====
-  { id: 24, name: 'Própolis Verde', price: 20.50, unit: '30ml', category: 'Própolis', image: '/images/produtos/Extratos de Própolis.png' },
   { id: 25, name: 'Própolis Marrom', price: 17.00, unit: '20ml', category: 'Própolis', image: '/images/produtos/extrato-propolis-20g.png' },
+  { id: 24, name: 'Própolis Verde', price: 20.50, unit: '30ml', category: 'Própolis', image: '/images/produtos/Extratos de Própolis.png' },
+  { id: 26, name: 'Pólen', price: 57.20, unit: '250g', category: 'Pólen', image: '/images/produtos/Polen Pote Rosca 250g.png' },
 
   //===== FAVO ===== 
   { id: 28, name: 'Favo de Mel na Madeira', price: 0, unit: 'Peso variável', category: 'Favo', image: '/images/produtos/Favo.png' }, 
