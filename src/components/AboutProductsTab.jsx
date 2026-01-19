@@ -94,12 +94,11 @@ const AboutProductsTab = () => {
         </div>
       </section>
 
-      {/* Propolis Section */}
+      {/* Propolis Section (MODIFICADA) */}
       <section className="bg-gradient-to-br from-amber-950 to-amber-800 rounded-3xl p-8 md:p-12 text-white shadow-xl overflow-hidden relative">
         <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
         
         <div className="relative z-10 space-y-12">
-          {/* Main Propolis Info */}
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="flex items-center gap-3 mb-6">
@@ -107,14 +106,22 @@ const AboutProductsTab = () => {
                 <h3 className="text-3xl font-bold">O Poder do Própolis</h3>
               </div>
               <p className="text-amber-100 text-lg leading-relaxed mb-6">
-                O "ouro verde" das abelhas. O própolis é uma resina coletada de plantas e alterada por enzimas das abelhas. É utilizada para higienizar e proteger a colmeia, e para nós humanos, serve como um poderoso aliado da saúde.
+                O "ouro verde" das abelhas. O própolis é uma resina coletada de plantas e transformada pelas enzimas das abelhas.
+                Na colmeia, ele protege contra fungos, bactérias e vírus. Para os humanos, é um dos maiores aliados naturais
+                da saúde, com destaque para o fortalecimento da imunidade e sua reconhecida ação antitumoral.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-amber-600/50 flex items-center justify-center shrink-0">
                     <ShieldCheck className="w-4 h-4 text-amber-300" />
                   </div>
-                  <span>Potente antibiótico natural e antiviral</span>
+                  <span><strong className="text-amber-300">Ação antitumoral:</strong> auxilia na prevenção e combate ao desenvolvimento de células tumorais</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-full bg-amber-600/50 flex items-center justify-center shrink-0">
+                    <ShieldCheck className="w-4 h-4 text-amber-300" />
+                  </div>
+                  <span><strong className="text-amber-300">Aumenta a imunidade:</strong> fortalece as defesas naturais do organismo contra vírus, bactérias e fungos</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-amber-600/50 flex items-center justify-center shrink-0">
@@ -126,7 +133,7 @@ const AboutProductsTab = () => {
                   <div className="w-8 h-8 rounded-full bg-amber-600/50 flex items-center justify-center shrink-0">
                     <Hexagon className="w-4 h-4 text-amber-300" />
                   </div>
-                  <span>Antioxidante: combate radicais livres</span>
+                  <span>Antioxidante: combate radicais livres e o envelhecimento precoce</span>
                 </li>
               </ul>
             </div>
@@ -139,14 +146,14 @@ const AboutProductsTab = () => {
             </div>
           </div>
 
-          {/* Types of Propolis */}
           <div className="pt-8 border-t border-white/10">
             <h4 className="text-2xl font-bold mb-6 text-amber-200">Tipos de Própolis</h4>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white/5 p-6 rounded-xl border border-white/10 hover:bg-white/10 transition-colors">
                 <h5 className="font-bold text-lg text-green-400 mb-2">Própolis Verde</h5>
                 <p className="text-sm text-amber-100/80">
-                  Originário do Alecrim-do-Campo. O mais famoso mundialmente, rico em Artepillin-C, com forte ação antitumoral e imunomoduladora.
+                  Originário do Alecrim-do-Campo. O mais famoso mundialmente, rico em Artepillin-C,
+                  com forte ação antitumoral e grande capacidade de fortalecimento da imunidade.
                 </p>
               </div>
               <div className="bg-white/5 p-6 rounded-xl border border-white/10 hover:bg-white/10 transition-colors">
@@ -165,12 +172,10 @@ const AboutProductsTab = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Pollen Section */}
       <section className="bg-white rounded-3xl p-8 md:p-12 border border-amber-200 shadow-lg">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          
-          {/* Image */}
           <div className="h-full min-h-[300px] bg-amber-50 rounded-2xl overflow-hidden border border-amber-100 shadow-xl">
             <img 
               src="/images/sobre/polen.JPG"
@@ -178,20 +183,16 @@ const AboutProductsTab = () => {
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
-
-          {/* Content */}
           <div>
             <div className="flex items-center gap-3 mb-6">
               <Hexagon className="w-10 h-10 text-amber-600" />
               <h3 className="text-3xl font-bold text-amber-900">Pólen Apícola: Energia Natural</h3>
             </div>
-
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
               O pólen é coletado pelas abelhas das flores e considerado um dos alimentos mais completos da natureza.
               Rico em proteínas, vitaminas, minerais e aminoácidos essenciais, é um verdadeiro combustível natural
               para o corpo e a mente.
             </p>
-
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center">
@@ -243,7 +244,6 @@ const AboutProductsTab = () => {
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 A geleia real é uma substância cremosa produzida pelas abelhas operárias exclusivamente para alimentar a abelha rainha. Graças a esta dieta, a rainha vive até 5 anos, enquanto as operárias vivem apenas 45 dias.
               </p>
-              
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="flex items-start gap-3">
                    <Sparkles className="w-5 h-5 text-yellow-600 mt-1" />
