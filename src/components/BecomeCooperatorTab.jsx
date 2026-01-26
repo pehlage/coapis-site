@@ -71,20 +71,26 @@ const BecomeCooperatorTab = () => {
         <div className="text-center max-w-2xl mx-auto space-y-8">
           <h3 className="text-2xl font-bold text-amber-900">Como se Tornar um Cooperado?</h3>
           <p className="text-gray-700 leading-relaxed">
-            Para fazer parte da Coapis, você precisa ser um produtor ativo na região e compartilhar de nossos valores de sustentabilidade e qualidade. O processo envolve uma visita técnica ao seu apiário e análise da qualidade do mel.
+            Para fazer parte da COAPIS, você precisa ser um produtor ativo na região e compartilhar dos nossos valores de sustentabilidade e qualidade. O processo envolve a análise da qualidade do mel, garantindo que ele atenda aos padrões exigidos.
           </p>
+
           
           <div className="bg-white p-6 rounded-xl shadow-sm inline-block text-left w-full">
-            <h4 className="font-bold text-amber-900 mb-4 border-b pb-2">Pré-requisitos Básicos:</h4>
+            <h4 className="font-bold text-amber-900 mb-4 border-b pb-2">
+              Pré-requisitos Básicos:
+            </h4>
+
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-700">
                 <CheckCircle2 className="w-5 h-5 text-green-500 flex-shrink-0" />
-                <span>Possuir Cadastro de Apicultor ativo</span>
+                <span>Ser apicultor e possuir Nota de Produtor Rural</span>
               </li>
+
               <li className="flex items-center gap-2 text-gray-700">
                 <CheckCircle2 className="w-5 h-5 text-green-500 flex-shrink-0" />
-                <span>Apiário localizado em área livre de agrotóxicos</span>
+                <span>Apiário cadastrado com número de GEDAVE ativo</span>
               </li>
+
               <li className="flex items-center gap-2 text-gray-700">
                 <CheckCircle2 className="w-5 h-5 text-green-500 flex-shrink-0" />
                 <span>Comprometimento com as boas práticas de produção</span>

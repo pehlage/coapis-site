@@ -17,7 +17,7 @@ const AboutTab = () => {
     {
       icon: Award,
       title: 'Produção Reconhecida',
-      description: 'São cerca de 300 toneladas de mel e derivados produzidos por ano, fortalecendo a cadeia produtiva no Estado de São Paulo.'
+      description: 'São cerca de 600 toneladas de mel e derivados produzidos por ano, fortalecendo a cadeia produtiva no Estado de São Paulo.'
     },
     {
       icon: Leaf,
@@ -56,19 +56,27 @@ const AboutTab = () => {
         <h3 className="text-3xl font-bold text-amber-900 mb-6">Nossa História</h3>
         <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
           <p>
-            A história da COAPIS começa com a APTA – Associação Paulista dos Técnicos Apícolas, criada com o objetivo de agregar qualidade à produção de mel. A APTA reúne cerca de 250 associados da região de Sorocaba e expandiu suas atividades para 67 municípios do Estado de São Paulo, fortalecendo toda a cadeia produtiva da apicultura.
+            A história da COAPIS começa com a APTA – Associação Paulista dos Técnicos Apícolas, criada com o objetivo de agregar qualidade à produção de mel. A APTA reúne cerca de 250 associados da região de Sorocaba e expandiu suas atividades para 83 municípios do Estado de São Paulo, fortalecendo toda a cadeia produtiva da apicultura, atuando desde o fornecimento de insumos e assistência técnica até a produção, beneficiamento, comercialização e inovação de produtos derivados do mel.
           </p>
+
           <p>
-            A produção anual chega, em média, a 300 toneladas de mel e derivados. Além da produção, a associação atua fortemente no fortalecimento do associativismo, na divulgação da atividade apícola e na capacitação de apicultores por meio de cursos, oficinas técnicas avançadas e programas de boas práticas de produção.
+            A associação também desempenha importante papel na formação continuada dos produtores, promovendo cursos, eventos, oficinas e projetos que fortalecem a profissionalização da apicultura na região, com foco em boas práticas, sustentabilidade, inovação e acesso a mercados.
           </p>
+
           <p>
-            A APTA investiu aproximadamente R$ 60 mil na ampliação das instalações físicas no bairro Trujillo, em Sorocaba. Os cursos são desenvolvidos em parceria com o Serviço Nacional de Aprendizagem Rural (SENAR), garantindo formação técnica contínua aos produtores.
+            A partir da Associação surgiu a COAPIS – fundada em 2007, que atua como organização produtiva e comercial da cadeia, sendo responsável por coordenar os processos de produção, beneficiamento e comercialização dos produtos apícolas dos cooperados.
           </p>
+
           <p>
-            A partir da Associação surgiu a COAPIS – Cooperativa dos Apicultores de Sorocaba e Região, com a missão de incentivar a apicultura sustentável, promovendo desenvolvimento social, econômico, ambiental e cultural, e gerando impacto positivo na sociedade.
+            Sua governança segue os princípios do cooperativismo solidário, com transparência, autogestão, eleição democrática de conselhos e diretoria, além da realização de assembleias gerais.
           </p>
+
           <p>
-            A COAPIS desenvolve projetos em parceria com a CONAB para fornecimento de mel e derivados destinados à merenda escolar, beneficiando diversos municípios. Com o crescimento da demanda, foi criado um projeto de ampliação e modernização das instalações e equipamentos, em parceria com o Banco do Brasil, por meio do programa DRS – Desenvolvimento Rural Sustentado.
+            Juntas, APTA e COAPIS foram reconhecidas pelo Governo do Estado de São Paulo como Cadeia Produtiva Local (CPL Mel) e compartilham responsabilidades e recursos, mantendo uma atuação coordenada e sinérgica, com foco no fortalecimento da apicultura regional, na valorização do produtor e na consolidação de uma cadeia produtiva sustentável e integrada.
+          </p>
+
+          <p>
+            Atualmente, a fábrica (entreposto) possui a certificação SISP 1043 e todos os programas de autocontrole aprovados pelo Escritório da Defesa.
           </p>
         </div>
       </motion.div>
@@ -98,15 +106,54 @@ const AboutTab = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.7 }}
-        className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-3xl shadow-xl p-10 text-white text-center relative overflow-hidden"
+        className="bg-gradient-to-br from-amber-500 via-orange-500 to-amber-600 rounded-3xl shadow-2xl p-10 text-white relative overflow-hidden"
       >
-        <div className="relative z-10">
-          <h3 className="text-3xl font-bold mb-4">Nossa Missão</h3>
-          <p className="text-amber-50 mb-8 text-lg max-w-2xl mx-auto">
-            Incentivar a apicultura sustentável, promovendo desenvolvimento social, econômico, ambiental e cultural, fortalecendo os apicultores e impactando positivamente a sociedade.
-          </p>
-          <div className="flex items-center justify-center gap-3 text-xl bg-white/10 py-3 px-6 rounded-full inline-flex backdrop-blur-sm">
-            <span className="font-semibold">COAPIS - Mel Puro, Trabalho Coletivo</span>
+        {/* detalhe decorativo */}
+        <div className="absolute inset-0 bg-white/5 backdrop-blur-sm" />
+
+        <div className="relative z-10 text-center">
+          <h3 className="text-4xl font-bold mb-10 tracking-tight">
+            Missão, Visão e Valores
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Missão */}
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:bg-white/15 transition">
+              <h4 className="text-2xl font-semibold mb-4">Missão</h4>
+              <p className="text-amber-50 leading-relaxed">
+                Desenvolver e fortalecer a apicultura racional através da união dos apicultores,
+                promovendo o beneficiamento e a comercialização de forma justa e sustentável,
+                visando a excelência na qualidade.
+              </p>
+            </div>
+
+            {/* Visão */}
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:bg-white/15 transition">
+              <h4 className="text-2xl font-semibold mb-4">Visão</h4>
+              <p className="text-amber-50 leading-relaxed">
+                Ser uma cooperativa reconhecida nacionalmente pela gestão, comercialização
+                e qualidade dos produtos e serviços, por meio da satisfação dos seus cooperados
+                e clientes.
+              </p>
+            </div>
+
+            {/* Valores */}
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:bg-white/15 transition">
+              <h4 className="text-2xl font-semibold mb-4">Valores</h4>
+              <ul className="space-y-2 text-amber-50">
+                <li>• Transparência</li>
+                <li>• Integridade</li>
+                <li>• Ética</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-12 flex justify-center">
+            <div className="text-lg bg-white/15 px-8 py-3 rounded-full backdrop-blur-md shadow-md">
+              <span className="font-semibold">
+                COAPIS — União, Qualidade e Sustentabilidade
+              </span>
+            </div>
           </div>
         </div>
       </motion.div>

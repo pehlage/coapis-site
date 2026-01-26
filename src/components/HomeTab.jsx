@@ -68,11 +68,16 @@ const HomeTab = ({ setActiveTab, addToCart }) => {
             <h2 className="text-3xl md:text-4xl font-bold text-amber-900 mb-6">
               Quem Somos
             </h2>
+
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-              A Coapis é mais que uma produtora de mel; somos uma cooperativa de apicultores apaixonados dedicados à arte do manejo sustentável de apiários. Fundada no coração do interior paulista, unimos tradição e qualidade.
+              A COAPIS não é só mel. É gente de verdade, apaixonada por abelhas, natureza e pelo que faz.
+              Somos uma cooperativa de apicultores que acredita que quando o trabalho é feito com união,
+              respeito e cuidado, o resultado vem naturalmente.
             </p>
+
             <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-              Nossa cooperativa garante que cada pote que você abre contém mel 100% puro e natural, colhido com respeito ao meio ambiente e às abelhas que o criam.
+              Cada pote carrega mais do que mel puro: carrega história, dedicação e o compromisso de
+              produzir de forma sustentável, respeitando o meio ambiente e quem vive dele.
             </p>
             <Button
               onClick={goToAbout}
