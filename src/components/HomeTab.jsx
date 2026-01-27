@@ -69,13 +69,13 @@ const HomeTab = ({ setActiveTab, addToCart }) => {
               Quem Somos
             </h2>
 
-            <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            <p className="text-gray-600 mb-6 text-lg leading-relaxed text-justify">
               A COAPIS não é só mel. É gente de verdade, apaixonada por abelhas, natureza e pelo que faz.
               Somos uma cooperativa de apicultores que acredita que quando o trabalho é feito com união,
               respeito e cuidado, o resultado vem naturalmente.
             </p>
 
-            <p className="text-gray-600 mb-8 text-lg leading-relaxed">
+            <p className="text-gray-600 mb-8 text-lg leading-relaxed text-justify">
               Cada pote carrega mais do que mel puro: carrega história, dedicação e o compromisso de
               produzir de forma sustentável, respeitando o meio ambiente e quem vive dele.
             </p>
