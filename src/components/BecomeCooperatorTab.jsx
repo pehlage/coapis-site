@@ -102,7 +102,7 @@ const BecomeCooperatorTab = () => {
             <Button 
               size="lg"
               className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-6 text-lg rounded-full shadow-lg w-full md:w-auto"
-              onClick={() => window.open('https://wa.me/5515996463145?text=Olá,%20gostaria%20de%20saber%20como%20me%20tornar%20um%20cooperado%20da%20Coapis.', '_blank')}
+              onClick={() => window.open('https://wa.me/5515996803578?text=Olá,%20gostaria%20de%20saber%20como%20me%20tornar%20um%20cooperado%20da%20Coapis.', '_blank')}
             >
               Falar com a Diretoria no WhatsApp
             </Button>

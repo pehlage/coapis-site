@@ -144,7 +144,7 @@ const HomeTab = ({ setActiveTab, addToCart }) => {
               </InfoItem>
 
               <InfoItem icon={Phone} title="Telefone / WhatsApp">
-                <p>+55 (15) 99646-3145</p>
+                <p>+55 (15) 99680-3578</p>
               </InfoItem>
             </div>
 

@@ -98,7 +98,7 @@ const Footer = ({ setActiveTab }) => {
                 <div className="p-2 bg-amber-900/50 rounded-lg group-hover:bg-amber-800 transition-colors">
                   <Phone className="w-6 h-6 text-amber-500" />
                 </div>
-                <span className="text-amber-200/90">+55 (15) 99646-3145</span>
+                <span className="text-amber-200/90">+55 (15) 99680-3578</span>
               </div>
               <div className="flex items-center gap-4 group">
                 <div className="p-2 bg-amber-900/50 rounded-lg group-hover:bg-amber-800 transition-colors">

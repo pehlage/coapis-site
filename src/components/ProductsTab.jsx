@@ -116,7 +116,7 @@ const ProductsTab = ({ addToCart }) => {
           </p>
 
           <a
-            href="https://wa.me/5515996463145?text=Olá!%20Gostaria%20de%20consultar%20os%20preços%20dos%20produtos%20apícolas."
+            href="https://wa.me/5515996803578?text=Olá!%20Gostaria%20de%20consultar%20os%20preços%20dos%20produtos%20apícolas."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-full shadow-md transition-all"

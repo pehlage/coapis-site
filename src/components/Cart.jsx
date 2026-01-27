@@ -31,7 +31,7 @@ const Cart = ({ isOpen, setIsOpen, cart, updateQuantity, removeFromCart, clearCa
     message += "Por favor, confirmem a disponibilidade e a taxa de entrega. Obrigado!";
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappURL = `https://wa.me/5515996463145?text=${encodedMessage}`;
+    const whatsappURL = `https://wa.me/5515996803578?text=${encodedMessage}`;
     
     window.open(whatsappURL, '_blank');
     
