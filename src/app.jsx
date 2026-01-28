@@ -54,9 +54,17 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Coapis - Cooperativa dos Apicultores de Sorocaba e Região</title>
-        <meta name="description" content="Descubra produtos de mel de qualidade premium da cooperativa Coapis. Mel puro, natural e produzido de forma sustentável, entregue diretamente de nossos apicultores para você." />
-        <html lang="pt-br" />
+        <title>Coapis – Cooperativa de Apicultores de Sorocaba e Região</title>
+
+        <meta
+          name="description"
+          content="A Coapis é a Cooperativa de Apicultores de Sorocaba e Região. Produzimos mel puro, natural e sustentável, direto dos apicultores para você."
+        />
+
+        <meta property="og:title" content="Coapis – Cooperativa de Apicultores de Sorocaba e Região" />
+        <meta property="og:description" content="Mel puro e sustentável direto dos apicultores. Conheça a Coapis." />
+        <meta property="og:image" content="https://coapis.com.br/images/logo.webp" />
+        <meta property="og:type" content="website" />
       </Helmet>
       
       <div className="min-h-screen flex flex-col bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 font-sans">
