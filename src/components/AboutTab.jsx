@@ -54,7 +54,7 @@ const AboutTab = () => {
         </div>
 
         <h3 className="text-3xl font-bold text-amber-900 mb-6">Nossa História</h3>
-        <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+        <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
           <p>
             A história da COAPIS começa com a APTA – Associação Paulista dos Técnicos Apícolas, criada com o objetivo de agregar qualidade à produção de mel. A APTA reúne cerca de 250 associados da região de Sorocaba e expandiu suas atividades para 83 municípios do Estado de São Paulo, fortalecendo toda a cadeia produtiva da apicultura, atuando desde o fornecimento de insumos e assistência técnica até a produção, beneficiamento, comercialização e inovação de produtos derivados do mel.
           </p>
@@ -81,7 +81,7 @@ const AboutTab = () => {
         </div>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 text-justify">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
         {features.map((feature, index) => {
           const IconComponent = feature.icon;
           return (

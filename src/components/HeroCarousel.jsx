@@ -9,7 +9,7 @@ const SLIDES = [
     id: 1,
     image: 'https://images.unsplash.com/photo-1619457632148-6d631bbb3b25',
     title: 'Nossa História',
-    subtitle: 'A trajetória da COAPIS e da APTA fortalecendo a apicultura em São Paulo.',
+    subtitle: 'A trajetória da COAPIS e da APTA fortalecendo a apicultura no Estado de São Paulo.',
     action: 'about',
     button: 'Conheça a COAPIS'
   },

@@ -70,7 +70,7 @@ const BecomeCooperatorTab = () => {
       <section className="bg-amber-50 rounded-3xl p-8 md:p-12 border border-amber-200">
         <div className="text-center max-w-2xl mx-auto space-y-8">
           <h3 className="text-2xl font-bold text-amber-900">Como se Tornar um Cooperado?</h3>
-          <p className="text-gray-700 leading-relaxed text-justify">
+          <p className="text-gray-700 leading-relaxed">
             Para fazer parte da COAPIS, você precisa ser um produtor ativo na região e compartilhar dos nossos valores de sustentabilidade e qualidade. O processo envolve a análise da qualidade do mel, garantindo que ele atenda aos padrões exigidos.
           </p>
 
