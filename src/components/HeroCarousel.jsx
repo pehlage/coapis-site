@@ -25,7 +25,7 @@ const SLIDES = [
     id: 3,
     image: 'https://images.unsplash.com/photo-1505576399279-565b52d4ac71',
     title: 'Curiosidades do Mel',
-    subtitle: 'Você sabia? O mel nunca estraga e é um dos alimentos mais puros do mundo.',
+    subtitle: 'Você sabia? O mel é um dos alimentos mais puros do mundo.',
     action: 'about-products',
     button: 'Descubra Mais'
   }
