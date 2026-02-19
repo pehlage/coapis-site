@@ -28,7 +28,7 @@ const ProductCard = ({ product, addToCart, index }) => {
       {/* Imagem + Preço + Categoria */}
       <div className="relative h-56 overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 group">
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain scale-95 transition-transform duration-300 group-hover:scale-100"
           alt={product.name}
           src={product.image}
           loading="lazy"
