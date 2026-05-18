@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ShoppingCart, Menu, X } from 'lucide-react';
+import { ShoppingCart, Menu, X, LogIn } from 'lucide-react';
 import { Button } from './ui/button';
 import { useState } from 'react';
 const Header = ({
@@ -66,6 +66,11 @@ const Header = ({
             }} />}
               </Button>)}
             
+            <a href="https://coapis-pedidos.netlify.app/login" target="_blank" rel="noopener noreferrer" className="ml-3 flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-full border border-white/70 text-white hover:bg-white hover:text-amber-600 transition-all duration-200 whitespace-nowrap">
+              <LogIn className="w-3.5 h-3.5" />
+              Área do Cooperado
+            </a>
+
             <Button variant="ghost" size="icon" onClick={() => setIsCartOpen(true)} className="relative text-white hover:bg-amber-700/50 transition-all ml-2">
               <ShoppingCart className="w-5 h-5" />
               {cartItemCount > 0 && <motion.span initial={{
@@ -104,6 +109,10 @@ const Header = ({
             {navItems.map(item => <Button key={item.id} variant="ghost" onClick={() => handleNavClick(item.id)} className={`w-full justify-start text-white hover:bg-amber-700/50 ${activeTab === item.id ? 'bg-amber-700/70 font-bold' : ''}`}>
                 {item.label}
               </Button>)}
+            <a href="https://coapis-pedidos.netlify.app/login" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full px-4 py-2 text-sm font-semibold rounded-full border border-white/70 text-white hover:bg-white hover:text-amber-600 transition-all duration-200 mt-2">
+              <LogIn className="w-4 h-4" />
+              Área do Cooperado
+            </a>
           </motion.nav>}
       </div>
     </header>;
